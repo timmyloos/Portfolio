@@ -532,7 +532,7 @@ export default function Home() {
                   </svg>
                 </a>
               </div>
-              <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
+              <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
                 <h3 className="text-xl font-bold mb-4">MLTrader</h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">
                   A machine learning-driven algorithmic trading system that
@@ -542,22 +542,22 @@ export default function Home() {
                   API handling for Alpaca&apos;s trading platform.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="px-2 py-1 bg-gray-100 dark:bg-gray-700 rounded text-sm">
+                  <span className="px-3 py-1 bg-gray-100 dark:bg-gray-700 rounded-full text-sm font-medium">
                     Python
                   </span>
-                  <span className="px-2 py-1 bg-gray-100 dark:bg-gray-700 rounded text-sm">
+                  <span className="px-3 py-1 bg-gray-100 dark:bg-gray-700 rounded-full text-sm font-medium">
                     Lumibot
                   </span>
-                  <span className="px-2 py-1 bg-gray-100 dark:bg-gray-700 rounded text-sm">
+                  <span className="px-3 py-1 bg-gray-100 dark:bg-gray-700 rounded-full text-sm font-medium">
                     FinBERT
                   </span>
-                  <span className="px-2 py-1 bg-gray-100 dark:bg-gray-700 rounded text-sm">
+                  <span className="px-3 py-1 bg-gray-100 dark:bg-gray-700 rounded-full text-sm font-medium">
                     Alpaca API
                   </span>
-                  <span className="px-2 py-1 bg-gray-100 dark:bg-gray-700 rounded text-sm">
+                  <span className="px-3 py-1 bg-gray-100 dark:bg-gray-700 rounded-full text-sm font-medium">
                     QuantStats
                   </span>
-                  <span className="px-2 py-1 bg-gray-100 dark:bg-gray-700 rounded text-sm">
+                  <span className="px-3 py-1 bg-gray-100 dark:bg-gray-700 rounded-full text-sm font-medium">
                     NumPy
                   </span>
                 </div>
@@ -565,12 +565,25 @@ export default function Home() {
                   href="https://github.com/timmyloos/MLTrader"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 dark:text-blue-400 hover:underline"
+                  className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors duration-200"
                 >
-                  View on GitHub →
+                  <span>View on GitHub</span>
+                  <svg
+                    className="w-4 h-4 ml-2"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M14 5l7 7m0 0l-7 7m7-7H3"
+                    />
+                  </svg>
                 </a>
               </div>
-              <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
+              <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
                 <h3 className="text-xl font-bold mb-4">Sudoku</h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">
                   An interactive Sudoku game built with Python and Pygame
@@ -580,13 +593,13 @@ export default function Home() {
                   win/loss detection.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="px-2 py-1 bg-gray-100 dark:bg-gray-700 rounded text-sm">
+                  <span className="px-3 py-1 bg-gray-100 dark:bg-gray-700 rounded-full text-sm font-medium">
                     Python
                   </span>
-                  <span className="px-2 py-1 bg-gray-100 dark:bg-gray-700 rounded text-sm">
+                  <span className="px-3 py-1 bg-gray-100 dark:bg-gray-700 rounded-full text-sm font-medium">
                     Pygame
                   </span>
-                  <span className="px-2 py-1 bg-gray-100 dark:bg-gray-700 rounded text-sm">
+                  <span className="px-3 py-1 bg-gray-100 dark:bg-gray-700 rounded-full text-sm font-medium">
                     GUI
                   </span>
                 </div>
@@ -594,9 +607,22 @@ export default function Home() {
                   href="https://github.com/timmyloos/Sudoku"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 dark:text-blue-400 hover:underline"
+                  className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors duration-200"
                 >
-                  View on GitHub →
+                  <span>View on GitHub</span>
+                  <svg
+                    className="w-4 h-4 ml-2"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M14 5l7 7m0 0l-7 7m7-7H3"
+                    />
+                  </svg>
                 </a>
               </div>
             </div>

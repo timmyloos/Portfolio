@@ -47,16 +47,16 @@ export default function Navbar() {
               Projects
             </Link>
             <Link
-              href="#contact"
-              className="hover:text-gray-600 dark:hover:text-gray-300"
-            >
-              Contact
-            </Link>
-            <Link
               href="#resume"
               className="hover:text-gray-600 dark:hover:text-gray-300"
             >
               Resume
+            </Link>
+            <Link
+              href="#contact"
+              className="hover:text-gray-600 dark:hover:text-gray-300"
+            >
+              Contact
             </Link>
           </div>
 
@@ -120,18 +120,18 @@ export default function Navbar() {
                 Projects
               </Link>
               <Link
-                href="#contact"
-                className="block px-3 py-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md"
-                onClick={() => setIsOpen(false)}
-              >
-                Contact
-              </Link>
-              <Link
                 href="#resume"
                 className="block px-3 py-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md"
                 onClick={() => setIsOpen(false)}
               >
                 Resume
+              </Link>
+              <Link
+                href="#contact"
+                className="block px-3 py-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md"
+                onClick={() => setIsOpen(false)}
+              >
+                Contact
               </Link>
             </div>
           </div>

@@ -52,6 +52,12 @@ export default function Navbar() {
             >
               Contact
             </Link>
+            <Link
+              href="#resume"
+              className="hover:text-gray-600 dark:hover:text-gray-300"
+            >
+              Resume
+            </Link>
           </div>
 
           {/* Mobile Navigation Button */}
@@ -119,6 +125,13 @@ export default function Navbar() {
                 onClick={() => setIsOpen(false)}
               >
                 Contact
+              </Link>
+              <Link
+                href="#resume"
+                className="block px-3 py-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md"
+                onClick={() => setIsOpen(false)}
+              >
+                Resume
               </Link>
             </div>
           </div>

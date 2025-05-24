@@ -71,7 +71,7 @@ export default function Home() {
                       University of Florida
                     </h3>
                     <p className="text-gray-600 dark:text-gray-300 text-lg mb-2">
-                      Bachelor&apos;s degree, Computer Science and Economics
+                      B.S. in Computer Science & B.A. in Economics
                     </p>
                     <p className="text-gray-500 dark:text-gray-400">
                       Aug 2023 - May 2027
@@ -118,7 +118,8 @@ export default function Home() {
                       Aug 2021 - May 2023
                     </p>
                     <p className="text-gray-600 dark:text-gray-300">
-                      Dual Enrollment
+                      <span className="font-semibold">Program:</span> Dual
+                      Enrollment via School for Advanced Studies
                     </p>
                   </div>
                 </div>
@@ -144,9 +145,9 @@ export default function Home() {
                       Aug 2019 - Jun 2023
                     </p>
                     <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                      I earned my High School Diploma while concurrently earning
-                      my Associate of Arts Degree through the SAS dual
-                      enrollment program with Miami Dade College.
+                      Completed high school diploma while simultaneously earning
+                      an Associate of Arts degree through dual enrollment with
+                      Miami Dade College
                     </p>
                     <div className="mt-4 text-sm">
                       <p className="font-semibold text-gray-700 dark:text-gray-200 mb-1">

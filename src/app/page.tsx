@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import Image from "next/image";
+import LazyResume from "./components/LazyResume";
 
 export default function Home() {
   return (
@@ -607,35 +608,7 @@ export default function Home() {
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-center mb-12">Resume</h2>
             <div className="max-w-4xl mx-auto">
-              <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
-                <div className="flex justify-center gap-4 mb-6">
-                  <a
-                    href="/resume.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200 flex items-center gap-2"
-                  >
-                    <i className="fas fa-eye"></i>
-                    <span>View in New Tab</span>
-                  </a>
-                  <a
-                    href="/resume.pdf"
-                    download
-                    className="px-6 py-3 bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-white rounded-lg hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors duration-200 flex items-center gap-2"
-                  >
-                    <i className="fas fa-file-download"></i>
-                    <span>Download PDF</span>
-                  </a>
-                </div>
-                <div className="w-full">
-                  <iframe
-                    src="/resume.pdf"
-                    title="Resume PDF"
-                    className="w-full rounded-lg border border-gray-200 dark:border-gray-700"
-                    style={{ minHeight: "800px" }}
-                  ></iframe>
-                </div>
-              </div>
+              <LazyResume />
             </div>
           </div>
         </section>

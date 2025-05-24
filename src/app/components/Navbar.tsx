@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
+// import Link from "next/link"; // Removed unused import
 import SmoothScrollLink from "./SmoothScrollLink";
 
 export default function Navbar() {

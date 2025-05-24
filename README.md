@@ -1,36 +1,156 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Timmy Loos - Personal Portfolio
 
-## Getting Started
+A modern, responsive portfolio website built with Next.js, React, and Tailwind CSS. This portfolio showcases my skills, experience, projects, and education as a Computer Science and Economics student at the University of Florida.
 
-First, run the development server:
+## 🚀 Features
+
+- **Modern Design**: Clean and professional interface with smooth animations
+- **Responsive**: Fully responsive design that works on all devices
+- **Dark Mode**: Built-in dark mode support
+- **Performance**: Optimized for speed and performance
+- **Accessibility**: Built with accessibility in mind
+- **Interactive**: Smooth scrolling and interactive UI elements
+
+## 🛠️ Technologies Used
+
+- **Framework**: Next.js 13+ (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Icons**: Font Awesome
+- **Deployment**: Ready for deployment on Vercel/Netlify
+
+## 📋 Sections
+
+- Hero Section
+- About Me
+- Education
+- Skills
+  - Technical Skills
+  - Soft & Professional Skills
+- Experience
+- Projects
+- Resume
+- Contact
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/portfolio.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd portfolio
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+4. Run the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎨 Customization
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Personal Information
 
-## Learn More
+Update your personal information in `src/app/page.tsx`:
 
-To learn more about Next.js, take a look at the following resources:
+- Profile photo
+- Name and title
+- About section
+- Skills
+- Experience
+- Projects
+- Contact information
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Styling
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Colors and themes can be modified in `tailwind.config.js`
+- Global styles are in `src/app/globals.css`
 
-## Deploy on Vercel
+## 📦 Project Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+portfolio/
+├── public/              # Static assets
+│   ├── profile.jpeg
+│   ├── resume.pdf
+│   └── ...
+├── src/
+│   ├── app/            # Next.js 13+ app directory
+│   │   ├── components/ # React components
+│   │   ├── globals.css # Global styles
+│   │   ├── layout.tsx  # Root layout
+│   │   └── page.tsx    # Home page
+│   └── ...
+├── package.json
+├── tailwind.config.js
+└── README.md
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🔧 Configuration
+
+### Tailwind CSS
+
+The project uses Tailwind CSS for styling. Configuration can be found in `tailwind.config.js`.
+
+### Font Awesome
+
+Font Awesome is included via CDN in the layout file for icons.
+
+## 📱 Responsive Design
+
+The portfolio is fully responsive and optimized for:
+
+- Mobile devices
+- Tablets
+- Desktop screens
+- Large displays
+
+## 🎯 Performance Optimization
+
+- Image optimization using Next.js Image component
+- Lazy loading for the resume section
+- Optimized fonts and assets
+- Efficient component rendering
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 👤 Author
+
+**Timmy Loos**
+
+- LinkedIn: [Timmy Loos](https://www.linkedin.com/in/timmy-loos/)
+- GitHub: [@timmyloos](https://github.com/timmyloos)
+- Email: timmyloos04@gmail.com
+
+## 🙏 Acknowledgments
+
+- Next.js team for the amazing framework
+- Tailwind CSS for the utility-first CSS framework
+- Font Awesome for the icons
+- All contributors and supporters

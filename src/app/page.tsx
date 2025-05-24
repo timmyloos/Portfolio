@@ -286,197 +286,276 @@ export default function Home() {
             <h2 className="text-4xl font-bold text-center mb-16">Experience</h2>
             <div className="max-w-3xl mx-auto space-y-8">
               <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 transform transition-all duration-300 hover:scale-102 hover:shadow-xl">
-                <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-6">
-                  <h3 className="text-2xl font-bold">
-                    Software Engineer Intern
-                  </h3>
-                  <span className="text-gray-600 dark:text-gray-300 font-medium">
-                    May 2025 - Present
-                  </span>
+                <div className="flex items-start gap-6">
+                  <Image
+                    src="/coral-gables-logo.jpeg"
+                    alt="City of Coral Gables Logo"
+                    width={64}
+                    height={64}
+                    className="w-16 h-16 object-contain rounded-lg shadow-md"
+                  />
+                  <div className="flex-1">
+                    <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-6">
+                      <h3 className="text-2xl font-bold">
+                        Software Engineer Intern
+                      </h3>
+                      <span className="text-gray-600 dark:text-gray-300 font-medium">
+                        May 2025 - Present
+                      </span>
+                    </div>
+                    <p className="text-gray-600 dark:text-gray-300 text-lg mb-2">
+                      City of Coral Gables - Innovation & Technology Department
+                    </p>
+                    <p className="text-gray-500 dark:text-gray-400 mb-6">
+                      Coral Gables, FL (On-site)
+                    </p>
+                    <ul className="list-disc list-outside ml-8">
+                      <li className="leading-relaxed">
+                        Spearheading development efforts on smart city
+                        initiatives at the GIS IoT Lab
+                      </li>
+                      <li className="leading-relaxed">
+                        Engineering solutions to advance the city&apos;s
+                        technology infrastructure and data systems
+                      </li>
+                      <li className="leading-relaxed">
+                        Collaborating cross-functionally with civic tech teams
+                        to deliver innovative digital services
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-                <p className="text-gray-600 dark:text-gray-300 text-lg mb-2">
-                  City of Coral Gables - Innovation & Technology Department
-                </p>
-                <p className="text-gray-500 dark:text-gray-400 mb-6">
-                  Coral Gables, FL (On-site)
-                </p>
-                <ul className="list-disc list-outside ml-8">
-                  <li className="leading-relaxed">
-                    Spearheading development efforts on smart city initiatives
-                    at the GIS IoT Lab
-                  </li>
-                  <li className="leading-relaxed">
-                    Engineering solutions to advance the city&apos;s technology
-                    infrastructure and data systems
-                  </li>
-                  <li className="leading-relaxed">
-                    Collaborating cross-functionally with civic tech teams to
-                    deliver innovative digital services
-                  </li>
-                </ul>
               </div>
 
               <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 transform transition-all duration-300 hover:scale-102 hover:shadow-xl">
-                <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-6">
-                  <h3 className="text-2xl font-bold">Tech Developer Intern</h3>
-                  <span className="text-gray-600 dark:text-gray-300 font-medium">
-                    June 2025 - Present
-                  </span>
+                <div className="flex items-start gap-6">
+                  <Image
+                    src="/seo-logo.jpeg"
+                    alt="SEO Logo"
+                    width={64}
+                    height={64}
+                    className="w-16 h-16 object-contain rounded-lg shadow-md"
+                  />
+                  <div className="flex-1">
+                    <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-6">
+                      <h3 className="text-2xl font-bold">
+                        Tech Developer Intern
+                      </h3>
+                      <span className="text-gray-600 dark:text-gray-300 font-medium">
+                        June 2025 - Present
+                      </span>
+                    </div>
+                    <p className="text-gray-600 dark:text-gray-300 text-lg mb-2">
+                      Sponsors for Educational Opportunity (SEO)
+                    </p>
+                    <p className="text-gray-500 dark:text-gray-400 mb-6">
+                      Remote
+                    </p>
+                    <ul className="list-disc list-outside ml-8">
+                      <li className="leading-relaxed">
+                        Selected for a competitive virtual program among top
+                        underrepresented CS talent
+                      </li>
+                      <li className="leading-relaxed">
+                        Engaged in weekly 1:1 mentorship with senior engineers
+                        to refine technical and career readiness
+                      </li>
+                      <li className="leading-relaxed">
+                        Completing intensive training in Data Structures,
+                        Algorithms, and system design
+                      </li>
+                      <li className="leading-relaxed">
+                        Building production-quality portfolio projects to
+                        prepare for top-tier tech interviews
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-                <p className="text-gray-600 dark:text-gray-300 text-lg mb-2">
-                  Sponsors for Educational Opportunity (SEO)
-                </p>
-                <p className="text-gray-500 dark:text-gray-400 mb-6">Remote</p>
-                <ul className="list-disc list-outside ml-8">
-                  <li className="leading-relaxed">
-                    Selected for a competitive virtual program among top
-                    underrepresented CS talent
-                  </li>
-                  <li className="leading-relaxed">
-                    Engaged in weekly 1:1 mentorship with senior engineers to
-                    refine technical and career readiness
-                  </li>
-                  <li className="leading-relaxed">
-                    Completing intensive training in Data Structures,
-                    Algorithms, and system design
-                  </li>
-                  <li className="leading-relaxed">
-                    Building production-quality portfolio projects to prepare
-                    for top-tier tech interviews
-                  </li>
-                </ul>
               </div>
 
               <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 transform transition-all duration-300 hover:scale-102 hover:shadow-xl">
-                <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-6">
-                  <h3 className="text-2xl font-bold">Private Math Tutor</h3>
-                  <span className="text-gray-600 dark:text-gray-300 font-medium">
-                    May 2024 - Present
-                  </span>
+                <div className="flex items-start gap-6">
+                  <div className="flex-1">
+                    <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-6">
+                      <h3 className="text-2xl font-bold">Private Math Tutor</h3>
+                      <span className="text-gray-600 dark:text-gray-300 font-medium">
+                        May 2024 - Present
+                      </span>
+                    </div>
+                    <p className="text-gray-600 dark:text-gray-300 text-lg mb-2">
+                      Self-Employed
+                    </p>
+                    <p className="text-gray-500 dark:text-gray-400 mb-6">
+                      Remote
+                    </p>
+                    <ul className="list-disc list-outside ml-8">
+                      <li className="leading-relaxed">
+                        Delivered personalized tutoring in Calculus and Algebra
+                        to high school students
+                      </li>
+                      <li className="leading-relaxed">
+                        Designed tailored lesson plans and tracked student
+                        progress to boost academic performance
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-                <p className="text-gray-600 dark:text-gray-300 text-lg mb-2">
-                  Self-Employed
-                </p>
-                <p className="text-gray-500 dark:text-gray-400 mb-6">Remote</p>
-                <ul className="list-disc list-outside ml-8">
-                  <li className="leading-relaxed">
-                    Delivered personalized tutoring in Calculus and Algebra to
-                    high school students
-                  </li>
-                  <li className="leading-relaxed">
-                    Designed tailored lesson plans and tracked student progress
-                    to boost academic performance
-                  </li>
-                </ul>
               </div>
 
               <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 transform transition-all duration-300 hover:scale-102 hover:shadow-xl">
-                <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-6">
-                  <h3 className="text-2xl font-bold">Service Lane Assistant</h3>
-                  <span className="text-gray-600 dark:text-gray-300 font-medium">
-                    Oct 2023 - May 2024
-                  </span>
+                <div className="flex items-start gap-6">
+                  <Image
+                    src="/kia-logo.png"
+                    alt="Kia Logo"
+                    width={64}
+                    height={64}
+                    className="w-16 h-16 object-cover rounded-lg shadow-md"
+                  />
+                  <div className="flex-1">
+                    <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-6">
+                      <h3 className="text-2xl font-bold">
+                        Service Lane Assistant
+                      </h3>
+                      <span className="text-gray-600 dark:text-gray-300 font-medium">
+                        Oct 2023 - May 2024
+                      </span>
+                    </div>
+                    <p className="text-gray-600 dark:text-gray-300 text-lg mb-2">
+                      Jenkins Kia of Gainesville
+                    </p>
+                    <p className="text-gray-500 dark:text-gray-400 mb-6">
+                      Gainesville, FL
+                    </p>
+                    <ul className="list-disc list-outside ml-8">
+                      <li className="leading-relaxed">
+                        Streamlined vehicle intake using CDK Global&apos;s cloud
+                        platform, improving workflow efficiency by 30%
+                      </li>
+                      <li className="leading-relaxed">
+                        Reduced manual entry errors by 25% through process
+                        optimization
+                      </li>
+                      <li className="leading-relaxed">
+                        Assisted customers with service intake and data
+                        processing
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-                <p className="text-gray-600 dark:text-gray-300 text-lg mb-2">
-                  Jenkins Kia of Gainesville
-                </p>
-                <p className="text-gray-500 dark:text-gray-400 mb-6">
-                  Gainesville, FL
-                </p>
-                <ul className="list-disc list-outside ml-8">
-                  <li className="leading-relaxed">
-                    Streamlined vehicle intake using CDK Global&apos;s cloud
-                    platform, improving workflow efficiency by 30%
-                  </li>
-                  <li className="leading-relaxed">
-                    Reduced manual entry errors by 25% through process
-                    optimization
-                  </li>
-                  <li className="leading-relaxed">
-                    Assisted customers with service intake and data processing
-                  </li>
-                </ul>
               </div>
 
               <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 transform transition-all duration-300 hover:scale-102 hover:shadow-xl">
-                <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-6">
-                  <h3 className="text-2xl font-bold">Assistant Manager</h3>
-                  <span className="text-gray-600 dark:text-gray-300 font-medium">
-                    Nov 2022 - Aug 2023
-                  </span>
+                <div className="flex items-start gap-6">
+                  <Image
+                    src="/poki-bowl-logo.png"
+                    alt="Poki Bowl Logo"
+                    width={64}
+                    height={64}
+                    className="w-16 h-16 object-contain rounded-lg shadow-md"
+                  />
+                  <div className="flex-1">
+                    <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-6">
+                      <h3 className="text-2xl font-bold">Assistant Manager</h3>
+                      <span className="text-gray-600 dark:text-gray-300 font-medium">
+                        Nov 2022 - Aug 2023
+                      </span>
+                    </div>
+                    <p className="text-gray-600 dark:text-gray-300 text-lg mb-2">
+                      Poki Bowl Kendall
+                    </p>
+                    <p className="text-gray-500 dark:text-gray-400 mb-6">
+                      Miami, FL
+                    </p>
+                    <ul className="list-disc list-outside ml-8">
+                      <li className="leading-relaxed">
+                        Managed staff and POS operations, reducing checkout time
+                        by 15%
+                      </li>
+                      <li className="leading-relaxed">
+                        Analyzed sales trends to optimize staffing and improve
+                        service speed
+                      </li>
+                      <li className="leading-relaxed">
+                        Led employee training sessions to ensure consistent
+                        operations
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-                <p className="text-gray-600 dark:text-gray-300 text-lg mb-2">
-                  Poki Bowl Kendall
-                </p>
-                <p className="text-gray-500 dark:text-gray-400 mb-6">
-                  Miami, FL
-                </p>
-                <ul className="list-disc list-outside ml-8">
-                  <li className="leading-relaxed">
-                    Managed staff and POS operations, reducing checkout time by
-                    15%
-                  </li>
-                  <li className="leading-relaxed">
-                    Analyzed sales trends to optimize staffing and improve
-                    service speed
-                  </li>
-                  <li className="leading-relaxed">
-                    Led employee training sessions to ensure consistent
-                    operations
-                  </li>
-                </ul>
               </div>
 
               <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 transform transition-all duration-300 hover:scale-102 hover:shadow-xl">
-                <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-6">
-                  <h3 className="text-2xl font-bold">Event Staff</h3>
-                  <span className="text-gray-600 dark:text-gray-300 font-medium">
-                    Mar 2023 - Apr 2023
-                  </span>
+                <div className="flex items-start gap-6">
+                  <Image
+                    src="/miami-open-logo.jpeg"
+                    alt="Miami Open Logo"
+                    width={64}
+                    height={64}
+                    className="w-16 h-16 object-contain rounded-lg shadow-md"
+                  />
+                  <div className="flex-1">
+                    <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-6">
+                      <h3 className="text-2xl font-bold">Event Staff</h3>
+                      <span className="text-gray-600 dark:text-gray-300 font-medium">
+                        Mar 2023 - Apr 2023
+                      </span>
+                    </div>
+                    <p className="text-gray-600 dark:text-gray-300 text-lg mb-2">
+                      Miami Open & Hard Rock Stadium
+                    </p>
+                    <p className="text-gray-500 dark:text-gray-400 mb-6">
+                      Miami Gardens, FL
+                    </p>
+                    <ul className="list-disc list-outside ml-8">
+                      <li className="leading-relaxed">
+                        Coordinated with teams to maintain crowd flow and
+                        logistics at large-scale events
+                      </li>
+                      <li className="leading-relaxed">
+                        Operated under tight timelines in high-volume, dynamic
+                        environments
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-                <p className="text-gray-600 dark:text-gray-300 text-lg mb-2">
-                  Miami Open & Hard Rock Stadium
-                </p>
-                <p className="text-gray-500 dark:text-gray-400 mb-6">
-                  Miami Gardens, FL
-                </p>
-                <ul className="list-disc list-outside ml-8">
-                  <li className="leading-relaxed">
-                    Coordinated with teams to maintain crowd flow and logistics
-                    at large-scale events
-                  </li>
-                  <li className="leading-relaxed">
-                    Operated under tight timelines in high-volume, dynamic
-                    environments
-                  </li>
-                </ul>
               </div>
 
               <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 transform transition-all duration-300 hover:scale-102 hover:shadow-xl">
-                <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-6">
-                  <h3 className="text-2xl font-bold">
-                    Customer Service Associate
-                  </h3>
-                  <span className="text-gray-600 dark:text-gray-300 font-medium">
-                    Jun 2022 - Nov 2022
-                  </span>
+                <div className="flex items-start gap-6">
+                  <Image
+                    src="/taco-bell-logo.jpeg"
+                    alt="Taco Bell Logo"
+                    width={64}
+                    height={64}
+                    className="w-16 h-16 object-contain rounded-lg shadow-md"
+                  />
+                  <div className="flex-1">
+                    <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-6">
+                      <h3 className="text-2xl font-bold">
+                        Customer Service Associate
+                      </h3>
+                      <span className="text-gray-600 dark:text-gray-300 font-medium">
+                        Jun 2022 - Nov 2022
+                      </span>
+                    </div>
+                    <p className="text-gray-600 dark:text-gray-300 text-lg mb-2">
+                      Taco Bell
+                    </p>
+                    <p className="text-gray-500 dark:text-gray-400 mb-6">
+                      Miami, FL
+                    </p>
+                    <ul className="list-disc list-outside ml-8">
+                      <li className="leading-relaxed">
+                        Processed customer orders and ensured service quality in
+                        a fast-paced environment
+                      </li>
+                      <li className="leading-relaxed">
+                        Worked collaboratively with kitchen and front-line teams
+                        to maintain speed and satisfaction
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-                <p className="text-gray-600 dark:text-gray-300 text-lg mb-2">
-                  Taco Bell
-                </p>
-                <p className="text-gray-500 dark:text-gray-400 mb-6">
-                  Miami, FL
-                </p>
-                <ul className="list-disc list-outside ml-8">
-                  <li className="leading-relaxed">
-                    Processed customer orders and ensured service quality in a
-                    fast-paced environment
-                  </li>
-                  <li className="leading-relaxed">
-                    Worked collaboratively with kitchen and front-line teams to
-                    maintain speed and satisfaction
-                  </li>
-                </ul>
               </div>
             </div>
           </div>

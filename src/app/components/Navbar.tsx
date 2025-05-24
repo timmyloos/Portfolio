@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import SmoothScrollLink from "./SmoothScrollLink";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,54 +11,54 @@ export default function Navbar() {
     <nav className="fixed w-full bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm z-50">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <Link href="/" className="text-xl font-bold">
+          <SmoothScrollLink href="#" className="text-xl font-bold">
             TL
-          </Link>
+          </SmoothScrollLink>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
-            <Link
+            <SmoothScrollLink
               href="#about"
               className="hover:text-gray-600 dark:hover:text-gray-300"
             >
               About
-            </Link>
-            <Link
+            </SmoothScrollLink>
+            <SmoothScrollLink
               href="#education"
               className="hover:text-gray-600 dark:hover:text-gray-300"
             >
               Education
-            </Link>
-            <Link
+            </SmoothScrollLink>
+            <SmoothScrollLink
               href="#skills"
               className="hover:text-gray-600 dark:hover:text-gray-300"
             >
               Skills
-            </Link>
-            <Link
+            </SmoothScrollLink>
+            <SmoothScrollLink
               href="#experience"
               className="hover:text-gray-600 dark:hover:text-gray-300"
             >
               Experience
-            </Link>
-            <Link
+            </SmoothScrollLink>
+            <SmoothScrollLink
               href="#projects"
               className="hover:text-gray-600 dark:hover:text-gray-300"
             >
               Projects
-            </Link>
-            <Link
+            </SmoothScrollLink>
+            <SmoothScrollLink
               href="#resume"
               className="hover:text-gray-600 dark:hover:text-gray-300"
             >
               Resume
-            </Link>
-            <Link
+            </SmoothScrollLink>
+            <SmoothScrollLink
               href="#contact"
               className="hover:text-gray-600 dark:hover:text-gray-300"
             >
               Contact
-            </Link>
+            </SmoothScrollLink>
           </div>
 
           {/* Mobile Navigation Button */}
@@ -84,55 +85,55 @@ export default function Navbar() {
         {isOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
-              <Link
+              <SmoothScrollLink
                 href="#about"
                 className="block px-3 py-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md"
                 onClick={() => setIsOpen(false)}
               >
                 About
-              </Link>
-              <Link
+              </SmoothScrollLink>
+              <SmoothScrollLink
                 href="#education"
                 className="block px-3 py-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md"
                 onClick={() => setIsOpen(false)}
               >
                 Education
-              </Link>
-              <Link
+              </SmoothScrollLink>
+              <SmoothScrollLink
                 href="#skills"
                 className="block px-3 py-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md"
                 onClick={() => setIsOpen(false)}
               >
                 Skills
-              </Link>
-              <Link
+              </SmoothScrollLink>
+              <SmoothScrollLink
                 href="#experience"
                 className="block px-3 py-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md"
                 onClick={() => setIsOpen(false)}
               >
                 Experience
-              </Link>
-              <Link
+              </SmoothScrollLink>
+              <SmoothScrollLink
                 href="#projects"
                 className="block px-3 py-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md"
                 onClick={() => setIsOpen(false)}
               >
                 Projects
-              </Link>
-              <Link
+              </SmoothScrollLink>
+              <SmoothScrollLink
                 href="#resume"
                 className="block px-3 py-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md"
                 onClick={() => setIsOpen(false)}
               >
                 Resume
-              </Link>
-              <Link
+              </SmoothScrollLink>
+              <SmoothScrollLink
                 href="#contact"
                 className="block px-3 py-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md"
                 onClick={() => setIsOpen(false)}
               >
                 Contact
-              </Link>
+              </SmoothScrollLink>
             </div>
           </div>
         )}

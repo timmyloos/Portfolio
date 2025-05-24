@@ -196,6 +196,27 @@ export default function Home() {
                     SQL
                   </span>
                   <span className="px-4 py-2 bg-gray-50 dark:bg-gray-700 rounded-full shadow-sm text-sm font-medium transform transition-all duration-300 hover:scale-105 hover:shadow-md hover:bg-blue-50 dark:hover:bg-gray-600">
+                    HTML/CSS
+                  </span>
+                  <span className="px-4 py-2 bg-gray-50 dark:bg-gray-700 rounded-full shadow-sm text-sm font-medium transform transition-all duration-300 hover:scale-105 hover:shadow-md hover:bg-blue-50 dark:hover:bg-gray-600">
+                    React
+                  </span>
+                  <span className="px-4 py-2 bg-gray-50 dark:bg-gray-700 rounded-full shadow-sm text-sm font-medium transform transition-all duration-300 hover:scale-105 hover:shadow-md hover:bg-blue-50 dark:hover:bg-gray-600">
+                    Next.js
+                  </span>
+                  <span className="px-4 py-2 bg-gray-50 dark:bg-gray-700 rounded-full shadow-sm text-sm font-medium transform transition-all duration-300 hover:scale-105 hover:shadow-md hover:bg-blue-50 dark:hover:bg-gray-600">
+                    Tailwind CSS
+                  </span>
+                  <span className="px-4 py-2 bg-gray-50 dark:bg-gray-700 rounded-full shadow-sm text-sm font-medium transform transition-all duration-300 hover:scale-105 hover:shadow-md hover:bg-blue-50 dark:hover:bg-gray-600">
+                    Node.js
+                  </span>
+                  <span className="px-4 py-2 bg-gray-50 dark:bg-gray-700 rounded-full shadow-sm text-sm font-medium transform transition-all duration-300 hover:scale-105 hover:shadow-md hover:bg-blue-50 dark:hover:bg-gray-600">
+                    PyTorch
+                  </span>
+                  <span className="px-4 py-2 bg-gray-50 dark:bg-gray-700 rounded-full shadow-sm text-sm font-medium transform transition-all duration-300 hover:scale-105 hover:shadow-md hover:bg-blue-50 dark:hover:bg-gray-600">
+                    Pygame
+                  </span>
+                  <span className="px-4 py-2 bg-gray-50 dark:bg-gray-700 rounded-full shadow-sm text-sm font-medium transform transition-all duration-300 hover:scale-105 hover:shadow-md hover:bg-blue-50 dark:hover:bg-gray-600">
                     SFML
                   </span>
                   <span className="px-4 py-2 bg-gray-50 dark:bg-gray-700 rounded-full shadow-sm text-sm font-medium transform transition-all duration-300 hover:scale-105 hover:shadow-md hover:bg-blue-50 dark:hover:bg-gray-600">
@@ -214,10 +235,16 @@ export default function Home() {
                     Pandas
                   </span>
                   <span className="px-4 py-2 bg-gray-50 dark:bg-gray-700 rounded-full shadow-sm text-sm font-medium transform transition-all duration-300 hover:scale-105 hover:shadow-md hover:bg-blue-50 dark:hover:bg-gray-600">
-                    Linux
+                    Git
                   </span>
                   <span className="px-4 py-2 bg-gray-50 dark:bg-gray-700 rounded-full shadow-sm text-sm font-medium transform transition-all duration-300 hover:scale-105 hover:shadow-md hover:bg-blue-50 dark:hover:bg-gray-600">
                     VSCode
+                  </span>
+                  <span className="px-4 py-2 bg-gray-50 dark:bg-gray-700 rounded-full shadow-sm text-sm font-medium transform transition-all duration-300 hover:scale-105 hover:shadow-md hover:bg-blue-50 dark:hover:bg-gray-600">
+                    Linux
+                  </span>
+                  <span className="px-4 py-2 bg-gray-50 dark:bg-gray-700 rounded-full shadow-sm text-sm font-medium transform transition-all duration-300 hover:scale-105 hover:shadow-md hover:bg-blue-50 dark:hover:bg-gray-600">
+                    AWS
                   </span>
                   <span className="px-4 py-2 bg-gray-50 dark:bg-gray-700 rounded-full shadow-sm text-sm font-medium transform transition-all duration-300 hover:scale-105 hover:shadow-md hover:bg-blue-50 dark:hover:bg-gray-600">
                     CDK
@@ -226,13 +253,13 @@ export default function Home() {
                     Cloud
                   </span>
                   <span className="px-4 py-2 bg-gray-50 dark:bg-gray-700 rounded-full shadow-sm text-sm font-medium transform transition-all duration-300 hover:scale-105 hover:shadow-md hover:bg-blue-50 dark:hover:bg-gray-600">
+                    OOP
+                  </span>
+                  <span className="px-4 py-2 bg-gray-50 dark:bg-gray-700 rounded-full shadow-sm text-sm font-medium transform transition-all duration-300 hover:scale-105 hover:shadow-md hover:bg-blue-50 dark:hover:bg-gray-600">
                     NLP
                   </span>
                   <span className="px-4 py-2 bg-gray-50 dark:bg-gray-700 rounded-full shadow-sm text-sm font-medium transform transition-all duration-300 hover:scale-105 hover:shadow-md hover:bg-blue-50 dark:hover:bg-gray-600">
                     AI
-                  </span>
-                  <span className="px-4 py-2 bg-gray-50 dark:bg-gray-700 rounded-full shadow-sm text-sm font-medium transform transition-all duration-300 hover:scale-105 hover:shadow-md hover:bg-blue-50 dark:hover:bg-gray-600">
-                    OOP
                   </span>
                   <span className="px-4 py-2 bg-gray-50 dark:bg-gray-700 rounded-full shadow-sm text-sm font-medium transform transition-all duration-300 hover:scale-105 hover:shadow-md hover:bg-blue-50 dark:hover:bg-gray-600">
                     POS Systems
@@ -251,19 +278,16 @@ export default function Home() {
                     Client Services
                   </span>
                   <span className="px-4 py-2 bg-gray-50 dark:bg-gray-700 rounded-full shadow-sm text-sm font-medium transform transition-all duration-300 hover:scale-105 hover:shadow-md hover:bg-blue-50 dark:hover:bg-gray-600">
-                    Management
+                    Customer Service
                   </span>
                   <span className="px-4 py-2 bg-gray-50 dark:bg-gray-700 rounded-full shadow-sm text-sm font-medium transform transition-all duration-300 hover:scale-105 hover:shadow-md hover:bg-blue-50 dark:hover:bg-gray-600">
-                    Social Media
+                    Customer Satisfaction
                   </span>
                   <span className="px-4 py-2 bg-gray-50 dark:bg-gray-700 rounded-full shadow-sm text-sm font-medium transform transition-all duration-300 hover:scale-105 hover:shadow-md hover:bg-blue-50 dark:hover:bg-gray-600">
-                    Cust. Satisfaction
+                    Bilingual (English & Spanish)
                   </span>
                   <span className="px-4 py-2 bg-gray-50 dark:bg-gray-700 rounded-full shadow-sm text-sm font-medium transform transition-all duration-300 hover:scale-105 hover:shadow-md hover:bg-blue-50 dark:hover:bg-gray-600">
-                    Food Service
-                  </span>
-                  <span className="px-4 py-2 bg-gray-50 dark:bg-gray-700 rounded-full shadow-sm text-sm font-medium transform transition-all duration-300 hover:scale-105 hover:shadow-md hover:bg-blue-50 dark:hover:bg-gray-600">
-                    Cust. Service
+                    Data Analysis
                   </span>
                   <span className="px-4 py-2 bg-gray-50 dark:bg-gray-700 rounded-full shadow-sm text-sm font-medium transform transition-all duration-300 hover:scale-105 hover:shadow-md hover:bg-blue-50 dark:hover:bg-gray-600">
                     Data Entry
@@ -272,7 +296,10 @@ export default function Home() {
                     Microsoft Office
                   </span>
                   <span className="px-4 py-2 bg-gray-50 dark:bg-gray-700 rounded-full shadow-sm text-sm font-medium transform transition-all duration-300 hover:scale-105 hover:shadow-md hover:bg-blue-50 dark:hover:bg-gray-600">
-                    Data Analysis
+                    Management
+                  </span>
+                  <span className="px-4 py-2 bg-gray-50 dark:bg-gray-700 rounded-full shadow-sm text-sm font-medium transform transition-all duration-300 hover:scale-105 hover:shadow-md hover:bg-blue-50 dark:hover:bg-gray-600">
+                    Social Media
                   </span>
                 </div>
               </div>
